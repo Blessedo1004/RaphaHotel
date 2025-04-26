@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almaris</title>
+   <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+  <!-- Owl Css -->
+  <link rel="stylesheet" href="../owl/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../owl/css/owl.theme.default.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+   
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+    <div class="navbar-brand logo">
+      <img src="ui/logo_white.png" alt="logo" class="col-7 ms-3 ms-md-0">
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="navbar-nav nav mt-3 mt-md-3 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-dark ms-4 ms-lg-2" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark ms-4 ms-lg-2" href="#">Rooms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark ms-4 ms-lg-2" href="#">Reservations</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link text-dark ms-4 ms-lg-2" href="#">Pages</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link text-dark ms-4 ms-lg-2" href="#">News</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link text-dark ms-4 ms-lg-2" href="#">Contact</a>
+        </li> 
+      </ul>
+      <button class="btn btn_grp_3 text-white mt-3 mt-lg-0 offset-lg-1 offset-xl-3">RESERVATION</button>
+    </div>
+  </div>
+  </nav>
+
+  <!-- Hero Section -->
+   
+    <div class="owl-carousel owl-theme">
+      <div class="slider">
+        <img src="photo-1657687380097-88a4a3570bba.avif" alt="">
+        <div class="slider_text">
+          <div class="col-12 text_grp_2 text-center">
+            EXCEPTIONAL STAY
+          </div>
+          <div class="header_text text-center mt-5">
+            Dream Apartment
+          </div>
+
+          <button class="btn btn_grp_2 text-white col-11 col-md-5 mt-5">
+            EXPLORE YOUR NEW HOME
+          </button>
+        </div>
+      </div>
+
+      <div class="slider">
+        <img src="premium_photo-1661964071015-d97428970584.avif" alt="">
+        <div class="slider_text">
+          <div class="col-12 text_grp_2 text-center">
+            EXCEPTIONAL STAY
+          </div>
+          <div class="header_text text-center mt-5">
+            Dream Apartment
+          </div>
+
+          <button class="btn btn_grp_2 text-white col-11 col-md-5 mt-5">
+            EXPLORE YOUR NEW HOME
+          </button>
+        </div>
+      </div>
+
+      <div class="slider">
+        <img src="premium_photo-1661964402307-02267d1423f5.avif" alt="">
+        <div class="slider_text">
+          <div class="col-12 text_grp_2 text-center">
+            EXCEPTIONAL STAY
+          </div>
+          <div class="header_text text-center mt-5">
+            Dream Apartment
+          </div>
+
+          <button class="btn btn_grp_2 text-white col-11 col-md-5 mt-5">
+            EXPLORE YOUR NEW HOME
+          </button>
+        </div>
+      </div>
+    </div>
+
+  <!-- Owl JQuery -->
+<script src="../owl/js/jquery.min.js"></script>
+<!-- Owl JS -->
+<script src="../owl/js/owl.carousel.min.js"></script>
+   <!-- Custom JS -->
+<script src="script.js"></script>
+
+
+<script>
+
+
+// Owl Initialization
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      items:1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplaySpeed: 500,
+      dots: true,
+    });
+});
+</script>
+</body>
+</html>
