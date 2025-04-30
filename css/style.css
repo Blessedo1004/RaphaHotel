@@ -167,56 +167,6 @@ Table of content:
 
 
 /* ================================================== */
-.slider_text{
-  position: absolute;
-    right: 15%;
-    bottom: 15rem;
-    left: 1%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    color: #fff;
-    text-align: center;
-    background-color: rgba(0,0,0,0.5);
-    
-
-}
-.hero_extra{
-  background-color: rgba(0,0,0,0.5);
-  width: 50%;
-}
-.slider_img{
-  height: 100vh;
-}
-
-.slider{
-  position: relative;
-}
-
-#hero .owl-dots{
-  display: block !important;
-  position: relative !important;
-  margin-top: -50px !important; 
-}
-
-
-/* phones */
-@media only screen and (max-width:767.9px){
-  .slider_text{
-    bottom: 10rem;
-  }
-  .slider_img{
-    height: 70vh;
-  }
-  .hero_extra{
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width:768px) and (max-width:991.9px){
-  .hero_extra{
-    width: 70%;
-  }
-}
 html {
   overflow-x: hidden;
   padding: 0;
