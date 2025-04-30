@@ -206,9 +206,18 @@ body .owl-stage .owl-item {
 }
 
 .slider-text{
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.2);
+}
+.form-info,.form-message{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+.form-info{
+  padding: 2%;
+}
+.form-message{
+  padding: 5%;
+}
 #wrapper {
   position: relative;
   overflow: hidden;
