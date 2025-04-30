@@ -1,9 +1,7 @@
 /* ================================================== */
 
 
-/* Almaris
-/* created by designesia
-
+/*
 @charset "utf-8";
 
 Table of content:
@@ -205,6 +203,10 @@ body.boxed {
 body .owl-stage .owl-item {
   margin-bottom: 15px;
 
+}
+
+.slider-text{
+  background-color: rgba(0,0,0,0.5);
 }
 
 #wrapper {
