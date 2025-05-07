@@ -204,7 +204,14 @@ body .owl-stage .owl-item {
   margin-bottom: 15px;
 
 }
+.check-list{
+  list-style-type: none;
+}
 
+.check-list li::before{
+  content:"✔";
+  margin-right: 8px;
+}
 .slider-text{
   background-color: rgba(0,0,0,0.2);
 }
