@@ -19926,6 +19926,8 @@ border-radius:20px 0 0 20px;
     flex-direction: column;
     justify-content: center;
 }
+.vid{height: 60vh;
+  width: 100vw;}
 }
 
 @media (min-width: 1200px) {
@@ -19948,6 +19950,8 @@ border-radius:20px 0 0 20px;
     flex-direction: column;
     justify-content: center;
 }
+.vid{height: 80vh;
+  width: 100vw;}
 }
 /* bootstrap cols 5 end */
 
@@ -19965,6 +19969,7 @@ border-radius:20px 0 0 20px;
     margin-top: -10%;
   }
   .g{height: 60vh;}
+  
 }
 
 
