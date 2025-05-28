@@ -213,7 +213,7 @@ body .owl-stage .owl-item {
   margin-right: 8px;
 }
 .slider-text{
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.5);
 }
 .form-info,.form-message{
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
